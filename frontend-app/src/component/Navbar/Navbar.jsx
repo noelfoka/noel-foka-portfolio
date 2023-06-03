@@ -34,16 +34,18 @@ function Navbar() {
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
             <HiOutlineX onClick={() => setToggle(false)} />
-            {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
-              (item) => (
-                <li key={item}>
-                  <div />
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
-                    {item}
-                  </a>
-                </li>
-              )
-            )}
+            <ul>
+              {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
+                (item) => (
+                  <li key={item}>
+                    <div />
+                    <a href={`#${item}`} onClick={() => setToggle(false)}>
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
+            </ul>
           </motion.div>
         )}
       </div>
