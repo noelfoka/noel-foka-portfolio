@@ -1,8 +1,21 @@
-import logo from "./logo.svg";
+import React from "react";
+
+import { About, Header, Footer, Skills, Testimonials, Work } from "./container";
+import { Navbar } from "./component";
 import "./App.css";
 
 function App() {
-  return <h1>Hello react</h1>;
+  return (
+    <div className="App">
+      <Navbar />
+      <Header />
+      <About />
+      <Skills />
+      <Testimonials />
+      <Work />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
