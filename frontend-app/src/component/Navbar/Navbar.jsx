@@ -1,5 +1,5 @@
 import React from "react";
-import { HiMenuAlt4, HIX } from "react-icons/hi";
+import { HiMenuAlt4, HiOutlineX } from "react-icons/hi";
 import { motion } from "framer-motion";
 
 import "./Navbar.scss";
@@ -33,7 +33,7 @@ function Navbar() {
             whileInView={{ x: [300, 0] }}
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
-            <HIX onClick={() => setToggle(false)} />
+            <HiOutlineX onClick={() => setToggle(false)} />
             {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
               (item) => (
                 <li key={item}>
