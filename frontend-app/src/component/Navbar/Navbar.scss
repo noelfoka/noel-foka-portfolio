@@ -113,7 +113,7 @@
     align-items: flex-end;
     flex-direction: column;
     background: url('../../assets/bgWhite.png');
-    /*background-color: var(--white-color);*/
+    background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
 
@@ -156,6 +156,14 @@
         }
       }
     }
+
+    @media  screen and (min-width: 900px) {
+      display: none;
+    }
+  }
+
+  @media  screen and (min-width: 900px) {
+      display: none;
   }
 }
 

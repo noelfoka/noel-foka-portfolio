@@ -38,7 +38,6 @@ function Navbar() {
               {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
                 (item) => (
                   <li key={item}>
-                    <div />
                     <a href={`#${item}`} onClick={() => setToggle(false)}>
                       {item}
                     </a>
