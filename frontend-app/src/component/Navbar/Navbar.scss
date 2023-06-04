@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.5rem;
   background: rgba(218, 212, 212, 0.25);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
@@ -16,12 +16,14 @@
 
 .app__navbar-logo {
   display: flex;
+  color: var(--secondary-color);
   justify-content: flex-start;
   align-items: center;
 
   img {
-  width: 90px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 
   @media  screen and (min-width: 2000px) {
     width: 180px;
