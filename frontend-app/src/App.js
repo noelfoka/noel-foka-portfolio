@@ -2,7 +2,7 @@ import React from "react";
 
 import { About, Header, Footer, Skills, Testimonials, Work } from "./container";
 import { Navbar } from "./component";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

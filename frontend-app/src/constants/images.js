@@ -60,6 +60,7 @@ let images = {
   about03,
   about04,
   profile,
+  profile,
   circle,
   logo,
   adidas,
