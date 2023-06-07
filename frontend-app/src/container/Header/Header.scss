@@ -45,6 +45,7 @@ app__header-info {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-left: 100px;
 
   height: 100%;
   
@@ -58,7 +59,7 @@ app__header-info {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items: self-end;
+  align-items: flex-end;
   flex-direction: column;
 
   .badge-cmp, .tag-cmp {
