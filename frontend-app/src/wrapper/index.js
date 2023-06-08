@@ -1,2 +1,5 @@
-export { default as appWrap } from "./appWrap";
-import appWrap from "./appWrap";
+import AppWrap from "./AppWrap";
+
+//export { default as AppWrap } from "./AppWrap";
+
+export { AppWrap };

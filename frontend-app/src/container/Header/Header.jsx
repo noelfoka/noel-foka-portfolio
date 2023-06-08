@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import "./Header.scss";
-import images from "./../../constants/index";
-import appWrap from "./../../wrapper/appWrap";
+import images from "../../constants";
+import { AppWrap } from "../../wrapper";
 
 const scaleVariants = {
   whileInView: {
@@ -47,10 +47,10 @@ function Header() {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__header-img"
       >
-        <img className="app__img" src={images.profile} alt="profiles" />
+        <img src={images.profile} alt="profile_bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, dease: "easeInOut" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="overlay_circle"
           src={images.circle}
           alt="profile_circle"
@@ -58,7 +58,7 @@ function Header() {
       </motion.div>
 
       <motion.div
-        variant={scaleVariants}
+        variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
@@ -72,4 +72,4 @@ function Header() {
   );
 }
 
-export default appWrap(Header, "home");
+export default AppWrap(Header, "home");

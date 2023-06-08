@@ -4,13 +4,13 @@ const NavigationDots = ({ active }) => {
   return (
     <div className="app__navigation">
       {[
-        "Home",
-        "About",
-        "Contact",
-        "Work",
-        "Skills",
+        "home",
+        "about",
+        "contact",
+        "work",
+        "skills",
         "testimonials",
-        "Contact",
+        "contact",
       ].map((item, index) => (
         <a
           href={`#${item}`}
