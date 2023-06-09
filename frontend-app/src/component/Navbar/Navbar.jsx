@@ -16,7 +16,7 @@ function Navbar() {
         <img src={images.logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
+        {["home", "about", "work", "testimonial", "skills", "contact"].map(
           (item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />
@@ -36,15 +36,20 @@ function Navbar() {
           >
             <HiOutlineX onClick={() => setToggle(false)} />
             <ul>
-              {["Home", "About", "Contact", "Work", "Skills", "Contact"].map(
-                (item) => (
-                  <li key={item}>
-                    <a href={`#${item}`} onClick={() => setToggle(false)}>
-                      {item}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                "Home",
+                "About",
+                "Testimonial",
+                "Work",
+                "Skills",
+                "Contact",
+              ].map((item) => (
+                <li key={item}>
+                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
         )}
