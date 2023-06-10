@@ -37,12 +37,12 @@ function Navbar() {
             <HiOutlineX onClick={() => setToggle(false)} />
             <ul>
               {[
-                "Home",
-                "About",
-                "Testimonial",
-                "Work",
-                "Skills",
-                "Contact",
+                "home",
+                "about",
+                "testimonial",
+                "work",
+                "skills",
+                "contact",
               ].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
