@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfoli <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 **portfolio-mibile** The aim of this project is to build a simple personal portfolio web page while understanding how to parse a Figma design and and flexbox to create a UI and use the images and backgrounds
 
@@ -122,9 +122,9 @@ Install this project with:
 
 👤 **Noel Nomgne Foka**
 
-- GitHub: [@githubhandle](https://github.com/noelfoka)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/noelfoka)
-- Twiter: [twitter](https://twitter.com/noelnomgne)
+- GitHub: [@noelfoka](https://github.com/noelfoka)
+- LinkedIn: [noelfoka](https://linkedin.com/in/noelfoka)
+- Twiter: [noelnomgne](https://twitter.com/noelnomgne)
 
 👤 **Emmanuel**
 - GitHub: [@githubhandle](http://github.com/hagan199)
