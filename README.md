@@ -125,9 +125,6 @@ Install this project with:
 - GitHub: [@noelfoka](https://github.com/noelfoka)
 - LinkedIn: [noelfoka](https://linkedin.com/in/noelfoka)
 - Twiter: [noelnomgne](https://twitter.com/noelnomgne)
-
-👤 **Emmanuel**
-- GitHub: [@githubhandle](http://github.com/hagan199)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
