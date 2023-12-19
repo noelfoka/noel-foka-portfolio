@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "mongoose": "^8.0.3"
+    "mongoose": "^8.0.3",
+    "react-icons": "^4.12.0"
   }
 }
